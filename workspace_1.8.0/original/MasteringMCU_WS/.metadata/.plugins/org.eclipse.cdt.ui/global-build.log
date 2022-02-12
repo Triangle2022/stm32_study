@@ -1,0 +1,32 @@
+
+**** Build of configuration Debug for project Sleep-On-Exit_1 ****
+
+Nothing to build for project Sleep-On-Exit_1
+
+**** Build of configuration Debug for project Sleep-On-Exit_1 ****
+
+Nothing to build for project Sleep-On-Exit_1
+
+**** Build of configuration Debug for project Sleep-On-Exit_1 ****
+
+Nothing to build for project Sleep-On-Exit_1
+12:26:28 **** Clean-only build of configuration Debug for project time_base_100ms ****
+make clean 
+Cannot run program "make": Unknown reason
+
+Error: Program "make" not found in PATH
+PATH=[/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin]
+
+**** Build of configuration Debug for project time_base_100ms ****
+
+Nothing to build for project time_base_100ms
+12:26:36 **** Clean-only build of configuration Debug for project time_base_100ms ****
+make clean 
+Cannot run program "make": Unknown reason
+
+Error: Program "make" not found in PATH
+PATH=[/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin]
+
+**** Build of configuration Debug for project time_base_100ms ****
+
+Nothing to build for project time_base_100ms

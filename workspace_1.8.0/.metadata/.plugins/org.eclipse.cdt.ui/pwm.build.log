@@ -1,0 +1,12 @@
+15:15:44 **** Incremental Build of configuration Debug for project pwm ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/msp.d" -MT"Core/Src/msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/msp.o"
+arm-none-eabi-gcc -o "pwm.elf" @"objects.list"   -mcpu=cortex-m4 -T"/home/st/STM32CubeIDE/workspace_1.8.0/pwm/STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="pwm.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+/opt/st/stm32cubeide_1.8.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.9-2020-q2-update.linux64_2.0.0.202105311346/tools/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: ./Core/Src/main.o: in function `UART2_Init':
+/home/st/STM32CubeIDE/workspace_1.8.0/pwm/Debug/../Core/Src/main.c:184: undefined reference to `HAL_UART_Init'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:64: pwm.elf] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+15:15:44 Build Failed. 3 errors, 0 warnings. (took 424ms)
+

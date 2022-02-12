@@ -1,0 +1,15 @@
+/*
+ * it.c
+ *
+ *  Created on: Feb 8, 2022
+ *      Author: st
+ */
+
+
+
+
+void SysTick_Handler(void)
+{
+	HAL_IncTick();
+	HAL_SYSTICK_IRQHandler()
+}

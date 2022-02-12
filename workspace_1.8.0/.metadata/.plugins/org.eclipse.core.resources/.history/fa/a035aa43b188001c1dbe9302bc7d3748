@@ -1,0 +1,18 @@
+/*
+ * msp.c
+ *
+ *  Created on: Feb 8, 2022
+ *      Author: st
+ */
+
+
+void HAL_MspInit()
+{
+	//1.setup the priority grouping of the arm cortex mx processor
+		HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_4);
+	//2. Enable the required system exeception of the arm cortex mx processor
+
+	//3.configure the priority for the system exception
+
+
+}
